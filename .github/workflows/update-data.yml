@@ -2,7 +2,7 @@ name: Update data
 
 on:
   schedule:
-    - cron: 
+    - cron: '0 0 * * *' # runs daily at 00:00 UTC 
   workflow_dispatch:
   push:
     paths:
