@@ -22,4 +22,4 @@ jobs:
     uses: EqualStreetNames/equalstreetnames/.github/workflows/reusable-update-date.yml@master
     secrets: inherit
     with:
-      city:
+      city: Malaga
